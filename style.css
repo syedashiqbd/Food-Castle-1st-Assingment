@@ -18,7 +18,8 @@ body {
   border-radius: 50px;
 }
 .banner-area,
-.about-me-area {
+.about-me-area,
+.receipie-item-area {
   display: flex;
 }
 .flexible-container {
@@ -53,4 +54,22 @@ body {
   color: #18191f;
   padding-right: 30%;
   line-height: 1.5em;
+}
+.my-recipies {
+  text-align: center;
+  margin-top: 60px;
+}
+.recipies-title {
+  font-size: 40px;
+  color: #707070;
+}
+.my-recipies p {
+  margin: 0 20%;
+}
+.receipie-item {
+  margin: 0 auto;
+}
+.receipie-item-area img {
+  width: 80%;
+  border-radius: 50px;
 }
