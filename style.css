@@ -40,6 +40,8 @@ body {
 }
 .about-me-area {
   background-image: url(images/About-me-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
   margin-top: 70px;
 }
 .about-me-text h2 {
