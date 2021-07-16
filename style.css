@@ -101,3 +101,13 @@ body {
 .social-media-items h1 {
   font-size: 30px;
 }
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 40px;
+  margin-top: 50px;
+}
+footer h1 {
+  color: #5b5b5b;
+}
