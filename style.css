@@ -20,7 +20,8 @@ body {
 }
 .banner-area,
 .about-me-area,
-.receipie-item-area {
+.receipie-item-area,
+.social-media-stats-area {
   display: flex;
 }
 .flexible-container {
@@ -66,13 +67,12 @@ body {
   margin-bottom: 50px;
 }
 .receipie-item-area {
-  margin-bottom: 50px;
-  padding-left: 3%;
-  padding-right: 3%;
+  width: 90%;
+  margin: 0 auto 60px;
 }
 .receipie-item {
   box-shadow: 2px 2px 30px #828282;
-  border-radius: 30px;
+  border-radius: 40px;
   padding: 1%;
   margin: 0 20px;
   width: 30%;
@@ -85,5 +85,19 @@ body {
   line-height: 30px;
 }
 .receipie-item H2 {
+  font-size: 30px;
+}
+.social-media-stats-area {
+  width: 82%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 30px #828282;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+.social-media-items {
+  margin: 0 auto;
+}
+.social-media-items h1 {
   font-size: 30px;
 }
